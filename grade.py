@@ -7,6 +7,8 @@ def calculate_grade(marks):
         return "C"
     elif marks > 40 and marks == 40:
         return "D"
+    elif marks > 30 and marks == 30:
+        return "E"
     else:
         return "Fail"
 
